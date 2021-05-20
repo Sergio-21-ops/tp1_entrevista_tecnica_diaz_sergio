@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <title>Sergio Diaz, Cátedra PWA</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+	<div class="container-fluid">
+	<h1>Climapp</h1>
+        <section class="contact-form">
+            <p>Ingrese el nombre de su ciudad para obtener datos meteorologicos</p>
+            <form>
+			<div class="form-control">
+                <label for="search">Ciudad a buscar:</label>
+                <input title="Search" id="search" value="" type="text" required/>
+            </div>
+			<button id="sendButton" type="button" class="btn btn-primary btn-lg btn-block">Enviar</button>
+			</form>
+        </section>
+        <div id="main"></div>
+        <script src="js/main.js"></script>  
+    </body>
+	</div>
+	<footer class="container-fluid" id="piepagina">Sergio Diaz, Cátedra PWA</footer>
+</html>
